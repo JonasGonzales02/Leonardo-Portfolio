@@ -195,7 +195,7 @@ h1, h2, h3, h4 {
 }
 
 .btn-primary:hover {
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     transform: translateY(-3px);
     box-shadow: var(--shadow);
 }
@@ -320,7 +320,7 @@ h1, h2, h3, h4 {
     gap: 5px;
 }
 .about-contact {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: var(--primary-color)
 }
 
 .about-contact-grid {
@@ -337,7 +337,7 @@ h1, h2, h3, h4 {
 }
 
 .about-card, .contact-card, .skills-card, .message-card {
-    background-color: white;
+    background-color: var(--primary-color)
     border-radius: 8px;
     padding: 2rem;
     box-shadow: var(--shadow);
