@@ -1,0 +1,19 @@
+/* CSS Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #8B4513; 
+    --secondary-color: #DAA520; /
+    --accent-color: #2F4F4F; 
+    --light-color: #F5F5DC;
+    --dark-color: #1A1A1A;
+    --text-color: #333;
+    --light-text: #F5F5F5;
+    --parchment: #F8F4E9;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --transition: all 0.3s ease;
+}
