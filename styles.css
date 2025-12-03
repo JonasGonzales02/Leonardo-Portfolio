@@ -287,3 +287,35 @@ h1, h2, h3, h4 {
 .artwork-info {
     padding: 1.5rem;
 }
+.artwork-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.artwork-year {
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.artwork-description {
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.artwork-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: var(--accent-color);
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.artwork-details span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
